@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/OnlineOptimization.iml" filepath="$PROJECT_DIR$/.idea/OnlineOptimization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OnlineOptimization.iml" filepath="$PROJECT_DIR$/OnlineOptimization.iml" />
     </modules>
   </component>
 </project>
