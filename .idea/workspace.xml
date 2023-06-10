@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="348846f8-fe1e-4ab3-aa9e-a69f3f6788c3" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67780b9e0ef9bc0c018729cc86d0e87a908cb487" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/common-util.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/service-util.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/model.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineOptimization1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineOptimization1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ljh/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ljh/Xc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ljh/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +42,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1686398005567</updated>
       <workItem from="1686398011102" duration="1067000" />
-      <workItem from="1686406784102" duration="2164000" />
+      <workItem from="1686406784102" duration="2644000" />
+      <workItem from="1686409591439" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1686403865691</created>
@@ -89,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686403865691</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="项目环境初始化">
+      <created>1686409272716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686409272716</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,5 +111,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="项目环境初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目环境初始化" />
   </component>
 </project>

@@ -24,43 +24,34 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.atguigu</groupId>
-            <artifactId>common-util</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-        <!-- redis -->
-        <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <scope>provided </scope>
         </dependency>
 
-        <!-- spring2.X集成redis所需common-pool2-->
+        <!--lombok用来简化实体类：需要安装lombok插件-->
         <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-pool2</artifactId>
-            <version>2.6.0</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!-- https://doc.xiaominfo.com/knife4j/documentation/ -->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
         </dependency>
 
-
-        <!-- redisson 分布式锁-->
+        <!--用来转换json使用 {JavaObject - json | json - JavaObject}-->
         <dependency>
-            <groupId>org.redisson</groupId>
-            <artifactId>redisson</artifactId>
-            <version>3.11.6</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
         </dependency>
 
-        <!--mybatis-plus-->
+        <!-- 服务调用feign -->
         <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <scope>provided</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <scope>provided </scope>
         </dependency>
-        <dependency>
-            <groupId>com.atguigu</groupId>
-            <artifactId>model</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+
     </dependencies>
 </project>
