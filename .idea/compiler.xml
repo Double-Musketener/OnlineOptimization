@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-util" />
+        <module name="model" />
+        <module name="service-util" />
+        <module name="service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="8" />
+      <module name="common-util" target="8" />
+      <module name="dmk-ssyu-parent" target="1.8" />
+      <module name="model" target="8" />
+      <module name="OnlineOptimization1" target="8" />
+      <module name="service" target="8" />
+      <module name="service-util" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
