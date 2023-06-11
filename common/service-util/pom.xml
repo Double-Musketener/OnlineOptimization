@@ -19,7 +19,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.atguigu</groupId>
+            <groupId>com.dmk</groupId>
             <artifactId>common-util</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
@@ -51,11 +51,14 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.atguigu</groupId>
+            <groupId>com.dmk</groupId>
             <artifactId>model</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+        </dependency>
     </dependencies>
-
 </project>
