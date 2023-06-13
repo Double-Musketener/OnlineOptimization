@@ -4,6 +4,6 @@
     <file url="file://$PROJECT_DIR$/common/common-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/service-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/model/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/servcie-acl/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="model" />
-        <module name="service" />
         <module name="common-util" />
+        <module name="servcie-acl" />
         <module name="service-util" />
       </profile>
     </annotationProcessing>
@@ -19,6 +19,8 @@
       <module name="dmk-ssyu-parent" target="1.8" />
       <module name="model" target="8" />
       <module name="OnlineOptimization" target="8" />
+      <module name="OnlineOptimization1" target="8" />
+      <module name="servcie-acl" target="8" />
       <module name="service" target="8" />
       <module name="service-util" target="8" />
     </bytecodeTargetLevel>
@@ -27,6 +29,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-util" options="-parameters" />
       <module name="model" options="-parameters" />
+      <module name="servcie-acl" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="service-util" options="-parameters" />
     </option>

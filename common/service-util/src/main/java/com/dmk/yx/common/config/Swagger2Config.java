@@ -7,6 +7,7 @@ package com.dmk.yx.common.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.ParameterBuilder;
 import springfox.documentation.builders.PathSelectors;
@@ -17,6 +18,7 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.service.Parameter;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +27,7 @@ import java.util.List;
  * Swagger2配置信息
  */
 @Configuration
-@EnableSwagger2WebMvc
+@EnableSwagger2
 public class Swagger2Config {
 
     //以下分成了两种角色类型
@@ -99,4 +101,7 @@ public class Swagger2Config {
                 .contact(new Contact("hexo", "https://echoss.top/", "echoss"))
                 .build();
     }
+
+
+
 }

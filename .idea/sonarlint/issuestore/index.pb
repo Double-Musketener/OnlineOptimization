@@ -1,7 +1,7 @@
 
-C
-service/service.iml,8\c\8c8e8e1ef90672a47908b6f4120307203fe3bb74
-R
-"common/common-util/common-util.iml,d\6\d657bb34d13d93956dc1d974ac4b2c24b697af10
-A
-common/common.iml,d\c\dca3072b1d7030ec19e0cccbfa40da83f200dfc1
+J
+common/common-util/pom.xml,e\1\e11c9af1f3f075911eeeadc65f502a18f63de327
+K
+common/service-util/pom.xml,7\b\7bf4ce2572b7ec64d7f93cfb8da490a785c0d1ed
+k
+;model/src/main/java/com/dmk/yx/model/product/AttrGroup.java,0\6\0681c813c1fe1c04983cb5933552bbd47f491341
